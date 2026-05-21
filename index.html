@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;50git init0;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div>
+        <h1 class="logo">lecto</h1>
+        <nav class="menu">
+          <a class="active">Inicio</a>
+          <a>Explorar</a>
+          <a>Mi biblioteca</a>
+          <a>Comunidad</a>
+          <a>Reseñas</a>
+          <a>Retos</a>
+        </nav>
+        <div class="challenge-card">
+          <h3>Reto anual</h3>
+          <div class="challenge-progress"><div></div></div>
+          <p>32 de 50 libros</p>
+          <button>Ver reto</button>
+        </div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h2>Hola, Andrea 👋</h2>
+          <p>Continúa donde lo dejaste</p>
+        </div>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Buscar libros, autores..."
+        />
+      </header>
+      <section class="hero card">
+        <img
+          class="hero-cover"
+          src="https://images-na.ssl-images-amazon.com/images/I/91uwocAMtSL.jpg"
+        />
+        <div>
+          <span class="badge">Leyendo ahora</span>
+          <h1>Los cuatro vientos</h1>
+          <p class="author">Kristin Hannah</p>
+          <div class="progress-bar"><div></div></div>
+          <div class="buttons">
+            <button class="primary">Continuar</button>
+            <button class="secondary">Guardar</button>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="section-header">
+          <h3>Resultados</h3>
+          <span id="resultsCount"></span>
+        </div>
+        <div id="searchResults" class="books-grid"></div>
+      </section>
+      <section class="card">
+        <div class="section-header">
+          <h3>Recomendado para ti</h3>
+        </div>
+        <div class="books-grid">
+          <div class="book-card">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/81s0B6NYXML.jpg"
+            />
+            <h4>La química del amor</h4>
+            <p>Ali Hazelwood</p>
+          </div>
+          <div class="book-card">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/91s0WZ4P5PL.jpg"
+            />
+            <h4>Verity</h4>
+            <p>Colleen Hoover</p>
+          </div>
+          <div class="book-card">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
+            />
+            <h4>Hábitos atómicos</h4>
+            <p>James Clear</p>
+          </div>
+          <div class="book-card">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/81ANaVZk5LL.jpg"
+            />
+            <h4>Los siete maridos</h4>
+            <p>Taylor Jenkins Reid</p>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
