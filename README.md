@@ -1,0 +1,2 @@
+<img width="1535" height="1024" alt="E51A560B-DB9D-4A5C-AFAD-6FE358E9E810" src="https://github.com/user-attachments/assets/59e06119-2d01-47fd-8460-2beeb211ce92" />
+Lecto será una plataforma web de seguimiento y descubrimiento de libros. El proyecto incluye una interfaz moderna y responsive inspirada en aplicaciones de lectura actuales, junto con un buscador conectado a una API externa para mostrar libros dinámicamente. Está desarrollado con HTML, CSS y JavaScript.
